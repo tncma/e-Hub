@@ -1,0 +1,12 @@
+<html>
+<Head><b>Civic Services</b></head><br><br><br>
+
+	<body>
+	
+		<table>
+		
+			<tr><input type = "text" value="Education"><input type="text" value="Health">
+			<input type="text" value="Sanitation"></tr> <br>
+		</table>
+	</body>
+</html>

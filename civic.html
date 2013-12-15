@@ -1,0 +1,102 @@
+<html>
+
+<Head><b>Civic Services</b></head><br><br><br>
+
+	<body onload="hidecontent()">
+	<script  type="text/javascript">
+function showDiv() {
+   document.getElementById('welcomeDiv').style.display = "block";
+}
+function  hidecontent()
+{
+ document.getElementById('welcomeDiv').style.display = "allow";
+}
+</script>
+		<table>
+		
+			<tr><input type = "button" value="Corporation" onclick="showDiv();"></tr>
+			<tr><input type="button" value="Municipality"></tr> 
+			<tr><input type="button" value="Town Panchayat" ></tr><br>
+		</table>
+		<div id="welcomeDiv" style="display:none">
+		<table name="corporation" onload="display:none">
+			Corporation Name
+			<select>
+			<option value=""></option>
+			  <option value="Chennai">Chennai</option>
+			  <option value="Coimbatore">Coimbatore</option>
+			  <option value="Madurai">Madurai</option>
+			  <option value="Tirichurapalli">Tirichurapalli</option>
+			  <option value="Salem">Salem</option>
+			  <option value="Tirunelvelli">Tirunelvelli</option>
+			  <option value="Tirupur">Tirupur</option>
+			  <option value="Erode">Erode</option>
+			  <option value="Thoothukudi">Thoothukudi</option>			  
+			  <option value="Vellore">Vellore</option>
+			</select>
+			<br>
+			Ward Number
+			<input type="text" ></input>
+			<br>
+			Door Number
+			
+			
+			Old <input type="text" ></input> New <input type="text" ></input><br>
+			Name <input type="text" ></input><br>
+			Civic Services 
+			<select>
+			<option value=""></option>
+			  <option value="Water Tax">Water Tax</option>
+			  <option value="Professional Tax">Professional Tax</option>
+			  <option value="Property tax">Property Tax</option>
+			  <option value="Entertainment tax">Entertainment Tax</option>
+			  <option value="Non Tax">Non Tax</option>
+			  <br>
+			  
+			</select>
+			Month
+			<select>
+			<option value=""></option>
+			  <option value="Jan">Jan</option>
+			  <option value="Feb">Feb</option>
+			  <option value="Mar">Mar</option>
+			  <option value="April">April</option>
+			  <option value="May">May</option>
+			  <option value="Jun">June</option>
+			  <option value="Jul">July</option>
+			  <option value="Aug">Aug</option>
+			  <option value="Sep">Sep</option>
+			  <option value="Oct">Oct</option>
+			  <option value="Nov">Nov</option>
+			  <option value="Dec">Dec</option>
+			  <br>			  
+			</select>
+			Year
+			<select>
+			<option value=""></option>
+			  <option value="2013">2013</option>
+			  <option value="2012">2012</option>
+			  <option value="2011">2011</option>
+			  <option value="2010">2010</option>
+			  <br>			  
+			</select>
+			<br>
+			Amount in Rs<input type="text" ></input><br>
+			Account Number<input type="text" ></input>
+			<br>
+			Pay option
+			<select>
+			<option value=""></option>
+			  <option value="Debit Card">Debit Card</option>
+			  <option value="OnlinePayment">Online Payment</option>
+			  	  
+			</select>
+			<br>
+			<a href="civicconfirmation.html">
+			<input type="button" value="confirm" ></input>
+			</a>
+		</table>
+		</div>
+	</body>
+	<a href="IULBG.html">Return to home page</a>
+</html>

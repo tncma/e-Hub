@@ -1,0 +1,17 @@
+<html>
+<Head><b>Integrated Urban Local Body Governance</b></head><br><br><br>
+
+	<body>
+	Please click the option that you want<br>
+		<table>
+		
+			<tr><input type = "button" value="Education"></tr> <br>
+			<tr><input type="button" value="Health"></tr> <br>
+			<tr><input type="button" value="Sanitation"></tr> <br>
+			<tr><input type="button" value="Birth and Death Certificate"></tr> <br>
+			<tr><input type="button" value="Roads"></tr> <br>
+			<tr><input type="button" value="Civic Services"  onclick="_civic_preview.html"></tr> <br>
+			<a href="_civic_preview.html">Civic Services</a>
+		</table>
+	</body>
+</html>
